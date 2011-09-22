@@ -1,0 +1,51 @@
+#classics
+alias ll="ls -lahG"
+alias ..="cd .."
+alias cdd="cd -"
+alias h="history"
+alias cpu="top -o cpu"
+alias mem="top -o vsize"
+
+#bookmarks
+alias nf="cd ~/Sites/nf"
+alias repos="cd ~/Documents/Repos/"
+
+#misc.
+alias npmu="npm update -g"
+alias db="mysql -h localhost -u root -proot"
+alias j="jump -a"
+alias redis="redis-server"
+
+
+#symfony
+alias cc="php symfony cc"
+alias buildmodel="php symfony propel:build-model"
+alias buildall="php symfony propel:build-all --classes-only"
+
+#GIT
+alias gp="git pull --rebase origin"
+alias ga='git add'
+alias gps='git push'
+alias gpso='git push origin'
+alias gl='git log'
+alias gs='git status'
+alias gd='git diff'
+function gm(){
+  git commit -m "$*"
+}
+function gam(){
+  git commit -am "$*"
+}
+alias gb='git branch'
+alias gco='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpl='git pull'
+alias gpr='git pull --rebase'
+alias gcl='git clone'
+
+#jump
+function jump(){
+  local newDir=$(JUMPPROFILE=1 command jump "$@");
+  cd "$newDir";
+}
