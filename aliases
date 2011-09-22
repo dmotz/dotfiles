@@ -9,6 +9,7 @@ alias mem="top -o vsize"
 #bookmarks
 alias nf="cd ~/Sites/nf"
 alias repos="cd ~/Documents/Repos/"
+alias desk="cd ~/Desktop"
 
 #misc.
 alias npmu="npm update -g"
@@ -16,13 +17,12 @@ alias db="mysql -h localhost -u root -proot"
 alias j="jump -a"
 alias redis="redis-server"
 
-
 #symfony
 alias cc="php symfony cc"
 alias buildmodel="php symfony propel:build-model"
 alias buildall="php symfony propel:build-all --classes-only"
 
-#GIT
+#git
 alias gp="git pull --rebase origin"
 alias ga='git add'
 alias gps='git push'
