@@ -18,7 +18,7 @@ alias j="jump -a"
 alias redis="redis-server"
 
 #symfony
-alias cc="php symfony cc"
+alias clc="php symfony cc"
 alias buildmodel="php symfony propel:build-model"
 alias buildall="php symfony propel:build-all --classes-only"
 
