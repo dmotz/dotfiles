@@ -1,6 +1,8 @@
 #classics
 alias ll="ls -lahG"
 alias ..="cd .."
+alias ...="cd ../.."
+alias ...="cd ../../.."
 alias cdd="cd -"
 alias h="history"
 alias cpu="top -o cpu"
@@ -53,3 +55,10 @@ function jump(){
 #utilities
 alias snoop='sudo opensnoop -p'
 alias serve='python -m SimpleHTTPServer 8000'
+alias dfind='mdfind -onlyin .'
+alias cwd='pwd | pbcopy'
+alias gowd='cd "`pbpaste`"'
+function pman() {
+    man -t "${1}" | open -f -a /Applications/Preview.app
+}
+
