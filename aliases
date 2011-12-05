@@ -49,3 +49,7 @@ function jump(){
   local newDir=$(JUMPPROFILE=1 command jump "$@");
   cd "$newDir";
 }
+
+#utilities
+alias snoop='sudo opensnoop -p'
+alias serve='python -m SimpleHTTPServer 8000'
