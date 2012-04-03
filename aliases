@@ -8,21 +8,19 @@ alias h="history"
 alias cpu="top -o cpu"
 alias mem="top -o vsize"
 
+
 #bookmarks
 alias nf="cd ~/Sites/nf"
 alias repos="cd ~/Documents/Repos/_mine"
 alias desk="cd ~/Desktop"
 
+
 #misc.
 alias npmu="npm update -g"
-alias db="mysql -h localhost -u root -proot"
+alias db="mysql -u root -p"
 alias j="jump -a"
 alias redis="redis-server"
 
-#symfony
-alias clc="php symfony cc"
-alias buildmodel="php symfony propel:build-model"
-alias buildall="php symfony propel:build-all --classes-only"
 
 #git
 alias gp="git pull --rebase origin"
@@ -46,11 +44,13 @@ alias gpl='git pull'
 alias gpr='git pull --rebase'
 alias gcl='git clone'
 
+
 #jump
 function jump(){
   local newDir=$(JUMPPROFILE=1 command jump "$@");
   cd "$newDir";
 }
+
 
 #utilities
 alias snoop='sudo opensnoop -p'
@@ -63,4 +63,10 @@ function pman() {
 }
 alias git=hub
 alias ios="open /Applications/iOS\ Simulator.app"
-alias selenium="java -jar /usr/local/Cellar/selenium-server-standalone/2.16.1/selenium-server-standalone-2.16.1.jar -p 4444"
+alias selenium="java -jar /usr/local/Cellar/selenium-server-standalone/*/*.jar -p 4444"
+
+
+#symfony
+alias clc="php symfony cc"
+alias buildmodel="php symfony propel:build-model"
+alias buildall="php symfony propel:build-all --classes-only"
