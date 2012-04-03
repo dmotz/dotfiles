@@ -1,7 +1,11 @@
-export PS1="\n\w$ "
+export PS1='\n\[\e[31m\]\w\$\[\e[0m\] '
 
 HISTSIZE=20000
 
 if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
 . /usr/local/etc/bash_completion.d/git-completion.bash
+fi
+
+if [ -f `brew --prefix`/etc/autojump ]; then
+  . `brew --prefix`/etc/autojump
 fi
