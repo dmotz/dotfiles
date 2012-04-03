@@ -10,7 +10,7 @@ alias mem="top -o vsize"
 
 #bookmarks
 alias nf="cd ~/Sites/nf"
-alias repos="cd ~/Documents/Repos/"
+alias repos="cd ~/Documents/Repos/_mine"
 alias desk="cd ~/Desktop"
 
 #misc.
@@ -61,4 +61,6 @@ alias gowd='cd "`pbpaste`"'
 function pman() {
     man -t "${1}" | open -f -a /Applications/Preview.app
 }
-
+alias git=hub
+alias ios="open /Applications/iOS\ Simulator.app"
+alias selenium="java -jar /usr/local/Cellar/selenium-server-standalone/2.16.1/selenium-server-standalone-2.16.1.jar -p 4444"
