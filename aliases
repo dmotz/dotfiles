@@ -28,7 +28,7 @@ alias ga='git add'
 alias gps='git push'
 alias gpso='git push origin'
 alias gl='git log'
-alias gs='git status'
+alias gs='git status -sb'
 alias gd='git diff'
 function gc(){
   git commit -m "$*"
