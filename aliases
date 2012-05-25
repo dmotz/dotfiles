@@ -5,6 +5,8 @@ alias ...="cd ../.."
 alias ...="cd ../../.."
 alias cdd="cd -"
 alias h="history"
+alias hg="history | grep -i"
+alias pid="ps aux | grep -i"
 alias cpu="top -o cpu"
 alias mem="top -o vsize"
 
@@ -70,3 +72,10 @@ alias selenium="java -jar /usr/local/Cellar/selenium-server-standalone/*/*.jar -
 alias clc="php symfony cc"
 alias buildmodel="php symfony propel:build-model"
 alias buildall="php symfony propel:build-all --classes-only"
+
+#fasd
+alias a='fasd -a' # any
+alias s='fasd -s' # show / search / select
+alias d='fasd -d' # directory
+alias f='fasd -f' # file
+alias z='fasd_cd -d' # cd, same functionality as j in autojump
