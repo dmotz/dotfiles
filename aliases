@@ -56,7 +56,7 @@ function jump(){
 
 #utilities
 alias snoop='sudo opensnoop -p'
-alias serve='python -m SimpleHTTPServer 8000'
+#alias serve='python -m SimpleHTTPServer 8000'
 alias dfind='mdfind -onlyin .'
 alias cwd='pwd | pbcopy'
 alias gowd='cd "`pbpaste`"'
