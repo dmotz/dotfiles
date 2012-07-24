@@ -66,6 +66,7 @@ function pman() {
 alias git=hub
 alias ios="open /Applications/iOS\ Simulator.app"
 alias selenium="java -jar /usr/local/Cellar/selenium-server-standalone/*/*.jar -p 4444"
+alias stylus="stylus --include /usr/local/lib/node_modules/nib/lib/"
 
 
 #symfony
