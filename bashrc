@@ -6,4 +6,4 @@
 . ~/.dotfiles/aliases
 
 . ~/.git-completion.sh
-. `brew --prefix`/etc/profile.d/z.sh
+. `brew --prefix`/Library/Contributions/brew_bash_completion.sh
