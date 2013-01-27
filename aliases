@@ -2,7 +2,7 @@
 alias ll="ls -lahG"
 alias ..="cd .."
 alias ...="cd ../.."
-alias ...="cd ../../.."
+alias ....="cd ../../.."
 alias cdd="cd -"
 alias h="history"
 alias hg="history | grep -i"
@@ -12,16 +12,8 @@ alias mem="top -o vsize"
 
 
 #bookmarks
-alias nf="cd ~/Sites/nf"
 alias repos="cd ~/Documents/Repos/_mine"
 alias desk="cd ~/Desktop"
-
-
-#misc.
-alias npmu="npm update -g"
-alias db="mysql -u root -p"
-alias j="jump -a"
-alias redis="redis-server"
 
 
 #git
@@ -47,36 +39,26 @@ alias gpr='git pull --rebase'
 alias gcl='git clone'
 
 
-#jump
-function jump(){
-  local newDir=$(JUMPPROFILE=1 command jump "$@");
-  cd "$newDir";
-}
-
-
-#utilities
+#misc
 alias snoop='sudo opensnoop -p'
-#alias serve='python -m SimpleHTTPServer 8000'
 alias dfind='mdfind -onlyin .'
 alias cwd='pwd | pbcopy'
 alias gowd='cd "`pbpaste`"'
 function pman() {
     man -t "${1}" | open -f -a /Applications/Preview.app
 }
-alias git=hub
 alias ios="open /Applications/iOS\ Simulator.app"
 alias selenium="java -jar /usr/local/Cellar/selenium-server-standalone/*/*.jar -p 4444"
-alias stylus="stylus --include /usr/local/lib/node_modules/nib/lib/"
+alias stylus="stylus --include /usr/local/share/npm/lib/node_modules/nib/lib/"
+alias coff="coffee -wc ."
+alias npmu="npm update -g"
+alias db="mysql -u root -p"
+alias canary="open -a Google\ Chrome\ Canary --args --disable-web-security"
 
-
-#symfony
-alias clc="php symfony cc"
-alias buildmodel="php symfony propel:build-model"
-alias buildall="php symfony propel:build-all --classes-only"
 
 #fasd
-alias a='fasd -a' # any
-alias s='fasd -s' # show / search / select
-alias d='fasd -d' # directory
-alias f='fasd -f' # file
-alias z='fasd_cd -d' # cd, same functionality as j in autojump
+#alias a='fasd -a' # any
+#alias s='fasd -s' # show / search / select
+#alias d='fasd -d' # directory
+#alias f='fasd -f' # file
+#alias z='fasd_cd -d' # cd, same functionality as j in autojump
