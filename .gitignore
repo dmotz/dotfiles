@@ -1,2 +1,4 @@
 .DS_Store
 ssh/config
+aws
+bin/
