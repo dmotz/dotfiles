@@ -54,6 +54,7 @@ alias coff="coffee -wc ."
 alias npmu="npm update -g"
 alias db="mysql -u root -p"
 alias canary="open -a Google\ Chrome\ Canary --args --disable-web-security"
+alias ports="lsof -i | grep -i listen"
 
 
 #fasd
