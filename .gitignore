@@ -1,4 +1,4 @@
 .DS_Store
-ssh/config
-aws
-bin/
+fish_history
+fishd.*
+bookmarks.fish
