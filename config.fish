@@ -20,3 +20,6 @@ alias stylus  'stylus -u nib'
 alias ports   'lsof -i | g listen'
 alias nosleep 'pmset noidle'
 
+
+# bookmarks
+. ~/.config/fish/bookmarks.fish
