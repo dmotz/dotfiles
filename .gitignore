@@ -1,4 +1,4 @@
 .DS_Store
-fish_history
-fishd.*
-bookmarks.fish
+fish/fish_history
+fish/fishd.*
+fish/bookmarks.fish
