@@ -1,0 +1,18 @@
+{
+  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+  "detect_slow_plugins": false,
+  "font_size": 15.0,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    80
+  ],
+  "tab_size": 2,
+  "theme": "Spacegray.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_separators": "./\\()\"'-:,.;<>~!#%^&*|+=[]{}`~?"
+}
