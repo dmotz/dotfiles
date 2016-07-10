@@ -1,9 +1,9 @@
 {:user
   {:plugins
-    [[cider/cider-nrepl "0.11.0"]
+    [[cider/cider-nrepl "0.12.0"]
      [lein-ancient "0.6.10"]
      [venantius/ultra "0.4.1"]
-     [lein-cljfmt "0.5.1"]
+     [lein-cljfmt "0.5.3"]
      [jonase/eastwood "0.2.3"]
      [lein-bikeshed "0.3.0"]
      [lein-try "0.4.3"]
