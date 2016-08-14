@@ -9,6 +9,7 @@ set -x GREP_COLOR    '1;35;40'
 
 set -x CUDA_HOME         /usr/local/cuda
 set -x DYLD_LIBRARY_PATH $DYLD_LIBRARY_PATH $CUDA_HOME/lib
+set -x LD_LIBRARY_PATH   $LD_LIBRARY_PATH $CUDA_HOME/lib64
 
 . ~/.config/fish/aliases.fish
 . ~/.config/fish/bookmarks.fish
