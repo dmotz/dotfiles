@@ -11,7 +11,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parallelshell 'npm run watch' 'npm run watch-style'",
-    "watch": "budo src/index.js --live -- -t babelify",
+    "watch": "budo src/index.js --live --title $$$ -- -t babelify",
     "watch-style": "stylus -c -u nib -w style/main.styl -o app.css"
   },
   "browserify": {
