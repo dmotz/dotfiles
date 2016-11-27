@@ -1,4 +1,7 @@
 function skeljs
+  if count $argv > /dev/null
+    mkcd $argv
+  end
   sed 's/\$\$\$/'(basename (pwd))'/' < (dirname (status -f))'/skeletons/js/package.json' > package.json
   git init
   mkdir src
