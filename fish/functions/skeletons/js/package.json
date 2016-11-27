@@ -1,0 +1,29 @@
+{
+  "name": "$$$",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": {
+    "name": "Dan Motzenbecker",
+    "email": "dan@oxism.com",
+    "url": "https://oxism.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "parallelshell 'npm run watch' 'npm run watch-style'",
+    "watch": "budo src/index.js --live -- -t babelify",
+    "watch-style": "stylus -c -u nib -w style/main.styl -o app.css"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  }
+}
