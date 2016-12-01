@@ -8,7 +8,7 @@ function skeljs
   touch src/index.js
   mkdir style
   touch style/main.styl
-  atom
+  atm
   npm i -S budo babelify browserify babel-preset-es2015 parallelshell stylus nib
   npm run dev
 end
