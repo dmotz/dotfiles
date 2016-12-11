@@ -33,3 +33,5 @@ alias ip      'ifconfig en0 | grep --color=never "inet " | tr " " "\n" | head -2
 alias aerun   '~/bin/google_appengine/dev_appserver.py .'
 alias aedep   '~/bin/google_appengine/appcfg.py --oauth2_credential_file=~/.appcfg_oauth2_tokens update .'
 alias o       'open .'
+alias hdesk   'defaults write com.apple.finder CreateDesktop -bool false; killall Finder'
+alias sdesk   'defaults write com.apple.finder CreateDesktop -bool true; killall Finder'
