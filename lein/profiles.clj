@@ -1,11 +1,11 @@
 {:user
   {:plugins
-    [[cider/cider-nrepl "0.12.0"]
+    [[cider/cider-nrepl "0.14.0"]
      [lein-ancient "0.6.10"]
-     [venantius/ultra "0.4.1"]
-     [lein-cljfmt "0.5.3"]
+     [venantius/ultra "0.5.1"]
+     [lein-cljfmt "0.5.6"]
      [jonase/eastwood "0.2.3"]
-     [lein-bikeshed "0.3.0"]
+     [lein-bikeshed "0.4.1"]
      [lein-try "0.4.3"]
      [lein-exec "0.3.6"]
      [lein-kibit "0.1.3"]]
