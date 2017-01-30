@@ -1,4 +1,4 @@
-alias g       'grep -i'
+alias g       'egrep -i'
 alias lll     'll -a'
 alias coff    'coffee -mwc .'
 alias canary  'open -a Google\ Chrome\ Canary --args --disable-web-security'
