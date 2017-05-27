@@ -3,3 +3,7 @@ fish/fishd.*
 fish/bookmarks.fish
 fish/google.fish
 lein/repl-history
+fish/completions/fisher.fish
+fish/functions/__bass.py
+fish/functions/bass.fish
+fish/functions/fisher.fish
