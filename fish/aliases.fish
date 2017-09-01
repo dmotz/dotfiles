@@ -1,5 +1,6 @@
 alias g       'egrep -i'
 alias lll     'll -a'
+alias l       'll -t | head'
 alias coff    'coffee -mwc .'
 alias canary  'open -a Google\ Chrome\ Canary --args --disable-web-security'
 alias snoop   'sudo opensnoop -p'
