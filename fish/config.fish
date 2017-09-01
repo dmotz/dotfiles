@@ -1,7 +1,7 @@
 set    fish_greeting ''
 set    HISTSIZE      20000
 set -x EDITOR        atom
-set -x PATH          $PATH /usr/local/bin /usr/local/opt/ruby/bin ~/.rvm/bin /usr/local/cuda/bin
+set -x PATH          $PATH ~/homebrew/bin ~/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin ~/homebrew/anaconda3/bin/
 set -x NODE_ENV      'development'
 set -x NODE_PATH     '/usr/local/lib/node'
 set -x GREP_OPTIONS  '--color=always'
