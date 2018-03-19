@@ -2,7 +2,9 @@ set -x PATH $PATH \
   ~/homebrew/bin \
   ~/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin \
   ~/homebrew/anaconda3/bin \
-  ~/_/flutter/bin
+  ~/_/flutter/bin \
+  ~/Library/Android/sdk/tools \
+  ~/Library/Android/sdk/platform-tools
 
 set fish_greeting ''
 set HISTSIZE      100000
