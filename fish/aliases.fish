@@ -1,6 +1,6 @@
 alias g       'egrep -i'
 alias lll     'll -a'
-alias l       'll -t | head'
+alias l       'll -t | head -n 11 | tail -n +2 | awk \'{print $9,$6,$7}\' | column -t'
 alias df      'df -H'
 alias tree    'tree -C'
 alias coff    'coffee -mwc .'
