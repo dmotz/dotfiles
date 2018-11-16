@@ -1,0 +1,57 @@
+{
+  "plugins": ["react", "react-native", "flowtype"],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-unused-vars": 2,
+    "no-console": 0,
+    "require-await": 2,
+    "eqeqeq": 2,
+    "no-var": 2,
+    "prefer-const": 2,
+    "object-shorthand": 2,
+    "object-curly-spacing": ["error", "never"],
+    "array-bracket-spacing": ["error", "never"],
+    "arrow-body-style": ["error", "as-needed"],
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 0,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2,
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "max-len": [
+      "error",
+      {
+        "code": 80,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "react/display-name": [0]
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "env": {
+    "react-native/react-native": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "16.3.1",
+      "flowVersion": "0.79.1"
+    }
+  }
+}
