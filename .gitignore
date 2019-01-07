@@ -1,4 +1,5 @@
 fish/fish_history
+fish/fish_variables
 fish/fishd.*
 fish/bookmarks.fish
 fish/google.fish
