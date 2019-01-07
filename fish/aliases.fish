@@ -44,7 +44,5 @@ alias hdesk   'defaults write com.apple.finder CreateDesktop -bool false; killal
 alias sdesk   'defaults write com.apple.finder CreateDesktop -bool true; killall Finder'
 alias run     'npm run'
 alias py      'python3'
-alias pip     'pip3'
-alias pip2    '/usr/local/bin/pip'
 alias showgit 'open (git remote get-url origin)'
 alias cf      'functions-emulator'
