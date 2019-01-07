@@ -8,3 +8,4 @@ fish/completions/fisher.fish
 fish/functions/__bass.py
 fish/functions/bass.fish
 fish/functions/fisher.fish
+fish/conf.d
