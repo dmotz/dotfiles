@@ -45,4 +45,5 @@ alias sdesk   'defaults write com.apple.finder CreateDesktop -bool true; killall
 alias run     'npm run'
 alias py      'python3'
 alias showgit 'open (git remote get-url origin)'
+alias ptolemy '~/__/ptolemy/ptolemy < ~/Documents/My\ Clippings.txt'
 alias cf      'functions-emulator'
