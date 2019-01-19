@@ -28,6 +28,9 @@ set -x LD_LIBRARY_PATH   $LD_LIBRARY_PATH $CUDA_HOME/lib64 $ANDROID_HOME/tools/l
 set -x NVM_DIR           ~/.nvm
 
 source ~/.iterm2_shell_integration.(basename $SHELL)
-source ~/.config/fish/aliases.fish
 source ~/.config/fish/bookmarks.fish
 source ~/.config/fish/google.fish
+
+if status --is-interactive
+  source ~/.config/fish/abbrs.fish
+end
