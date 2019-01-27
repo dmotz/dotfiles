@@ -1,7 +1,13 @@
 function fish_prompt
-  echo -n (dirname (pwd))/
-  set_color -o green
-  echo (basename (pwd))
+  if test (pwd) = $HOME
+    set_color -o green
+    echo '~'
+  else
+    echo -n (dirname (pwd) | sed "s|^$HOME|~|")/
+    set_color -o green
+    echo (basename (pwd))
+  end
+
   set_color -o blue
   echo -n '$ '
   set_color -o normal
