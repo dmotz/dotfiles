@@ -1,5 +1,9 @@
 function fish_title
-  set dir (basename (pwd) | sed "s|^$USER\$|~|")
+  if test (pwd) = $HOME
+    set dir '~'
+  else
+    set dir (basename (pwd))
+  end
 
   if test $_ = 'fish'
     echo $dir
