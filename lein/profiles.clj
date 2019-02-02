@@ -10,4 +10,7 @@
    [lein-exec "0.3.7"]
    [lein-kibit "0.1.6"]]
 
-   :ultra {:color-scheme :solarized_dark}}}
+  :middleware [cider-nrepl.plugin/middleware
+               ultra.plugin/middleware]
+
+  :ultra {:color-scheme :solarized_dark}}}
