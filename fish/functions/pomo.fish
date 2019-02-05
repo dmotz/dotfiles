@@ -1,5 +1,7 @@
 function pomo
-  date '+%H:%M:%S'
+  tput reset
+  echo '🍅' (date)
+  echo ''
   for i in (seq 24)
     sleep 60
     echo $i
