@@ -4,6 +4,7 @@ fish/fishd.*
 fish/bookmarks.fish
 fish/google.fish
 lein/repl-history
+lein/repl-port
 fish/completions/fisher.fish
 fish/functions/__bass.py
 fish/functions/bass.fish
