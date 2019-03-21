@@ -1,7 +1,7 @@
 abbr -ag g       'egrep -i'
 abbr -ag lll     'll -a'
 abbr -ag l       'll -tc | head -n 11 | tail -n +2 | awk \'{print $10,$6,$7,$9}\' | column -t'
-abbr -ag df      'df -H'
+abbr -ag df      'df -H | tail -n +2 | head -n 1 | awk \'{print $5, " ",$4, "/", $3}\''
 abbr -ag tree    'tree -C -I \'node_modules|elm-stuff\''
 abbr -ag coff    'coffee -mwc .'
 abbr -ag canary  'open -a Google\ Chrome\ Canary --args --disable-web-security'
