@@ -16,6 +16,7 @@
     "react-native/split-platform-components": 0,
     "react-native/no-inline-styles": 2,
     "react-native/no-color-literals": 2,
+    "react/prop-types": 0,
     "linebreak-style": [2, "unix"],
     "quotes": [2, "single"],
     "semi": [2, "never"],
