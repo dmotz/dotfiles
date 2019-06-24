@@ -2,6 +2,7 @@
   "name": "$$$",
   "version": "0.0.0",
   "description": "",
+  "private": true,
   "main": "src/index.js",
   "author": {
     "name": "Dan Motzenbecker",
@@ -10,20 +11,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "parallelshell 'npm run watch' 'npm run watch-style'",
-    "watch": "budo src/index.js --live --title $$$ -- -t babelify",
-    "watch-style": "stylus -c -u nib -w style/main.styl -o app.css"
+    "start": "parcel index.html"
   },
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015"
-          ]
-        }
-      ]
-    ]
-  }
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
