@@ -4,11 +4,11 @@ function skeljs
   end
   sed 's/\$\$\$/'(basename (pwd))'/' < (dirname (status -f))'/skeletons/js/package.json' > package.json
   git init
+  boiler > index.html
   mkdir src
   touch src/index.js
-  mkdir style
-  touch style/main.styl
+  touch src/style.sass
   atm
-  npm i -S budo babelify browserify babel-preset-es2015 parallelshell stylus nib
+  npm i -D parcel
   npm run dev
 end
