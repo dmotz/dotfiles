@@ -12,11 +12,6 @@
     "object-curly-spacing": [2, "never"],
     "array-bracket-spacing": [2, "never"],
     "arrow-body-style": [2, "as-needed"],
-    "react-native/no-unused-styles": 2,
-    "react-native/split-platform-components": 0,
-    "react-native/no-inline-styles": 2,
-    "react-native/no-color-literals": 2,
-    "react/prop-types": 0,
     "linebreak-style": [2, "unix"],
     "quotes": [2, "single"],
     "semi": [2, "never"],
@@ -29,10 +24,18 @@
         "ignoreTemplateLiterals": true
       }
     ],
+
+    "react/prop-types": 0,
     "react/display-name": 0,
     "react/react-in-jsx-scope": 0,
-    "react/no-unknown-property": 0
+    "react/no-unknown-property": 0,
+    "react-hooks/exhaustive-deps": 1,
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 0,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2
   },
+
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -53,7 +56,7 @@
   },
   "settings": {
     "react": {
-      "version": "16.3.1",
+      "version": "16.8.6",
       "flowVersion": "0.79.1"
     }
   }
