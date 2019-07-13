@@ -11,7 +11,7 @@ function boiler
     />
     <meta name=\"author\" content=\"Dan Motzenbecker\" />
     <!-- <link href=\"images/favicon.png\" rel=\"icon\" type=\"image/png\" /> -->
-    <!-- <link rel=\"stylesheet\" type=\"text/css\" /> -->
+    <!-- <link rel=\"stylesheet\" href="" /> -->
     <title>$argv[1]</title>
   </head>
   <body>
