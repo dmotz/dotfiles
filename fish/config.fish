@@ -1,7 +1,9 @@
+set -x BREW_PATH ~/homebrew
+
 set -x PATH $PATH \
-  ~/homebrew/bin \
-  ~/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin \
-  ~/homebrew/anaconda3/bin \
+  $BREW_PATH/bin \
+  $BREW_PATH/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin \
+  $BREW_PATH/anaconda3/bin \
   ~/Library/Android/sdk/emulator \
   ~/Library/Android/sdk/tools \
   ~/Library/Android/sdk/platform-tools \
