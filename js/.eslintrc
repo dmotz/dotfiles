@@ -1,5 +1,5 @@
 {
-  "plugins": ["react", "react-native", "flowtype"],
+  "plugins": ["react", "react-hooks", "react-native", "flowtype"],
   "parser": "babel-eslint",
   "rules": {
     "no-unused-vars": 2,
@@ -30,6 +30,7 @@
     "react/react-in-jsx-scope": 0,
     "react/no-unknown-property": 0,
     "react-hooks/exhaustive-deps": 1,
+    "react-hooks/rules-of-hooks": 2,
     "react-native/no-unused-styles": 2,
     "react-native/split-platform-components": 0,
     "react-native/no-inline-styles": 2,
