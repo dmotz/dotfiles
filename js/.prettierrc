@@ -4,3 +4,5 @@ tabWidth: 2
 singleQuote: true
 bracketSpacing: false
 arrowParens: avoid
+plugins:
+  - /Users/dmotzenbecker/homebrew/lib/node_modules/prettier-plugin-svelte
