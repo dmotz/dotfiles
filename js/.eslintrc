@@ -1,5 +1,5 @@
 {
-  "plugins": ["react", "react-hooks", "react-native", "flowtype"],
+  "plugins": ["react", "react-hooks", "react-native", "flowtype", "svelte3"],
   "parser": "babel-eslint",
   "rules": {
     "no-unused-vars": 2,
