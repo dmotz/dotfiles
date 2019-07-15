@@ -1,6 +1,12 @@
 {
   "plugins": ["react", "react-hooks", "react-native", "flowtype", "svelte3"],
   "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
   "rules": {
     "no-unused-vars": 2,
     "no-console": 0,
@@ -45,16 +51,13 @@
     "prettier/flowtype",
     "prettier/react"
   ],
+
   "env": {
-    "react-native/react-native": true,
-    "es6": true
+    "browser": true,
+    "es6": true,
+    "react-native/react-native": true
   },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "sourceType": "module"
-  },
+
   "settings": {
     "react": {
       "version": "16.8.6",
