@@ -63,5 +63,12 @@
       "version": "16.8.6",
       "flowVersion": "0.79.1"
     }
-  }
+  },
+
+  "overrides": [
+    {
+      "files": ["**/*.svelte"],
+      "processor": "svelte3/svelte3"
+    }
+  ]
 }
