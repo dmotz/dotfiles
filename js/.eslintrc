@@ -1,5 +1,12 @@
 {
-  "plugins": ["react", "react-hooks", "react-native", "flowtype", "svelte3"],
+  "plugins": [
+    "import",
+    "react",
+    "react-hooks",
+    "react-native",
+    "flowtype",
+    "svelte3"
+  ],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
@@ -45,6 +52,7 @@
 
   "extends": [
     "eslint:recommended",
+    "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:flowtype/recommended",
     "prettier",
