@@ -10,5 +10,5 @@ function skeljs
   touch src/style.sass
   code .
   npm i -D parcel
-  npm run dev
+  npm run start
 end
