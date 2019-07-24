@@ -9,7 +9,8 @@ set -x PATH $PATH \
   ~/Library/Android/sdk/platform-tools \
   ~/Library/Android/sdk/tools/bin \
   ~/.local/bin \
-  ~/.poetry/bin
+  ~/.poetry/bin \
+  '/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
 
 set fish_greeting ''
 set HISTSIZE      100000

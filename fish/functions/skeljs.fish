@@ -8,7 +8,7 @@ function skeljs
   mkdir src
   touch src/index.js
   touch src/style.sass
-  atm
+  code .
   npm i -D parcel
   npm run dev
 end
