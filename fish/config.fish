@@ -15,6 +15,8 @@ set -x PATH $PATH \
 set fish_greeting ''
 set HISTSIZE      100000
 
+set -x CONFIG_PATH ~/__/dotfiles
+
 set -x EDITOR 'atom'
 
 set -x GREP_OPTIONS '--color=always'
