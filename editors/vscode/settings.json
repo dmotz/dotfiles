@@ -1,0 +1,44 @@
+{
+  "window.zoomLevel": 1,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 17,
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.rulers": [80],
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.iconTheme": null,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Dainty – Ayu Mirage",
+  "editor.lightbulb.enabled": false,
+  "workbench.statusBar.visible": false,
+  "editor.renderIndentGuides": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    {
+      "language": "javascript"
+    },
+    {
+      "language": "svelte"
+    }
+  ],
+  "editor.tabSize": 2,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.enableExperiments": false,
+  "files.insertFinalNewline": true,
+  "editor.glyphMargin": false,
+  "terminal.integrated.fontSize": 14
+}
