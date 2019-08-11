@@ -5,7 +5,7 @@ ln -s $CONFIG_PATH/js/.prettierrc ~/.prettierrc
 ln -s $CONFIG_PATH/js/.lein ~/.lein
 
 if test (uname) = Darwin
-  sudo ./macos/macos.bash
+  sudo ./macos/macos.sh
   brew bundle install --file=./macos/Brewfile
 end
 
