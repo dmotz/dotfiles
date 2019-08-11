@@ -1,0 +1,175 @@
+"*":
+  _dart:
+    _firstRun: true
+    _version: "1.0.1"
+  "atom-beautify":
+    general:
+      muteAllErrors: true
+      showLoadingView: false
+    haskell:
+      beautify_on_save: true
+  "atom-haskell":
+    hasAddedConfiguration: true
+  "atom-ide-ui":
+    use: {}
+  "autocomplete-haskell":
+    hideHintPanelIfEmpty: false
+  "autocomplete-plus":
+    autoActivationDelay: 500
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "archive-view"
+      "background-tips"
+      "welcome"
+      "omnisharp-atom"
+      "Hydrogen"
+      "tool-bar"
+      "elm-lens"
+      "elmjutsu"
+      "ide-flowtype"
+      "atom-ide-ui"
+      "ide-typescript"
+      "hasklig"
+      "glsl-preview"
+      "atom-beautify"
+      "autocomplete-glsl"
+      "autocomplete-solidity"
+      "language-glsl"
+      "language-pascal"
+      "language-protobuf"
+      "linter-glsl"
+      "linter-solidity"
+      "unity-shader-files"
+      "dev-live-reload"
+      "exception-reporting"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-ruby-on-rails"
+      "metrics"
+      "package-generator"
+      "goto"
+      "styleguide"
+      "linter-flow"
+      "flow-ide"
+      "kite"
+      "haskell-pointfree"
+      "spell-check"
+      "github"
+      "open-on-github"
+      "ink"
+      "language-idris"
+      "proto-repl"
+      "ide-rust"
+      "tidalcycles"
+      "ide-svelte"
+    ]
+    followSymlinks: false
+    telemetryConsent: "no"
+    titleBar: "custom"
+  editor:
+    fontSize: 19
+    showInvisibles: true
+  elm:
+    formatOnSave: true
+  elmjutsu:
+    cacheDirectory: "/var/folders/4g/0tqtglfs5bvdhm6rv1wm1xww00b14h/T/elmjutsu43776WPJ4lSB1jqkO"
+  "exception-reporting":
+    userId: "8a324906-8e06-4632-8082-bafea80507ad"
+  "haskell-ghc-mod":
+    lowMemorySystem: true
+    onChangeCheck: true
+    onChangeLint: true
+  "highlight-column":
+    opacity: 0.02
+  "ide-haskell":
+    messageDisplayFrontend: "linter"
+    onSavePrettify: true
+    onSavePrettifyFormats:
+      "source*cabal": true
+      "text*tex*latex*haskell": true
+    startupMessageIdeBackend: false
+    stylishHaskellPath: "hindent"
+    switchTabOnCheck: false
+  "ide-haskell-cabal":
+    cabal:
+      activeGhcVersion: "8.0"
+  "ide-haskell-repl":
+    defaultRepl: "stack"
+  kite:
+    showWelcomeNotificationOnStartup: false
+  "language-elm": {}
+  linter: {}
+  "linter-eslint":
+    disabling:
+      disableWhenNoEslintConfig: false
+    global:
+      eslintrcPath: "~/.eslintrc"
+      useGlobalEslint: true
+    lintHtmlFiles: true
+    scopes: [
+      "source.js"
+      "source.jsx"
+      "source.js.jsx"
+      "source.babel"
+      "source.js-semantic"
+      "source.flow"
+    ]
+  "linter-flow":
+    executablePath: "/Users/dmotzenbecker/homebrew/bin/flow"
+  "linter-python":
+    executablePath: "/Users/dmotzenbecker/homebrew/bin/pylama"
+    lintTrigger: "File modified"
+    withPep8: true
+  "linter-ui-default":
+    alwaysTakeMinimumSpace: true
+    gutterPosition: "Left"
+    panelHeight: 326
+    showPanel: true
+    showProviderName: true
+    statusBarRepresents: "Current File"
+  "lisp-paredit": {}
+  "omnisharp-atom":
+    codeFormat: false
+  parinfer:
+    "file-extensions": [
+      ".boot"
+      ".cl"
+      ".clj"
+      ".cljc"
+      ".cljs"
+      ".edn"
+      ".el"
+      ".lfe"
+      ".lisp"
+      ".lsp"
+      ".rkt"
+      ".scm"
+    ]
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    prettierEslintOptions:
+      prettierLast: true
+    prettierOptions:
+      bracketSpacing: false
+      semi: false
+      singleQuote: true
+    useEslint: true
+  "proto-repl":
+    autoPrettyPrint: true
+    displayExecutedCodeInRepl: false
+  "python-black":
+    lineLength: 80
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+".elm.source":
+  editor:
+    showInvisibles: false
