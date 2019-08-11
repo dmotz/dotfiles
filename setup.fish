@@ -4,7 +4,7 @@ ln -s $CONFIG_PATH/js/.eslintrc ~/.eslintrc
 ln -s $CONFIG_PATH/js/.prettierrc ~/.prettierrc
 ln -s $CONFIG_PATH/js/.lein ~/.lein
 
-if test (uname) = Darwin                                                                                     16:30:17
+if test (uname) = Darwin
   fish ./macos/macos.fish
   brew bundle install --file=./macos/Brewfile
 end
