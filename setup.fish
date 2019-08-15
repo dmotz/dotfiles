@@ -10,6 +10,7 @@ ln -s $CONFIG_PATH/editors/atom/config.cson ~/.atom/config.cson
 if test (uname) = Darwin
   sudo ./macos/macos.sh
   brew bundle install --file=./macos/Brewfile
+  git config --global credential.helper osxkeychain
 end
 
 npm i -g (cat ./js/npmfile)
