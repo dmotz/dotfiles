@@ -40,5 +40,6 @@
   "workbench.enableExperiments": false,
   "files.insertFinalNewline": true,
   "editor.glyphMargin": false,
-  "terminal.integrated.fontSize": 14
+  "terminal.integrated.fontSize": 14,
+  "files.trimTrailingWhitespace": true
 }
