@@ -42,4 +42,14 @@ if status --is-interactive
   source ~/.config/fish/abbrs.fish
   source ~/.config/fish/bookmarks.fish
   source ~/.config/fish/google.fish
+
+  set fish_color_normal      ccccc6
+  set fish_color_command     b6e354 --bold
+  set fish_color_quote       ccccc6
+  set fish_color_redirection feed6c
+  set fish_color_end         23cfd5
+  set fish_color_error       ff5995
+  set fish_color_param       f8f8f2
+  set fish_color_match       9e6ffe
+  set fish_color_operator    23cfd5
 end

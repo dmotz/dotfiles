@@ -4,7 +4,7 @@ function fish_prompt
     echo '~'
   else
     echo -n (dirname (pwd) | sed "s|^$HOME|~|")/
-    set_color -o green
+    set_color -o brwhite
     echo (basename (pwd))
   end
 
