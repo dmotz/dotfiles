@@ -17,7 +17,7 @@ set HISTSIZE      100000
 
 set -x CONFIG_PATH ~/__/dotfiles
 
-set -x EDITOR 'atom'
+set -x EDITOR code
 
 set -x GREP_OPTIONS '--color=always'
 set -x GREP_COLOR   '1;35;40'
