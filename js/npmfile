@@ -1,5 +1,6 @@
 @google-cloud/functions-emulator
 babel-eslint
+dev-proxy
 diff-so-fancy
 distilla
 elm-analyse
