@@ -15,9 +15,11 @@ eslint-plugin-react-native
 eslint-plugin-svelte3
 firebase-tools
 http-server
+nib
 npm
 parcel
 prettier
 prettier-plugin-svelte
 spoof
+stylus
 vtop
