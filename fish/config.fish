@@ -10,6 +10,7 @@ set -x PATH $PATH \
   ~/Library/Android/sdk/tools/bin \
   ~/.local/bin \
   ~/.poetry/bin \
+  ~/.cargo/bin \
   '/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
 
 set fish_greeting ''
