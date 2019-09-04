@@ -58,3 +58,4 @@ abbr -ag rmr     'rm -rf'
 abbr -ag npmls   'npm ls -g --depth=0'
 abbr -ag http    'http-server --cors'
 abbr -ag gemail  'git config -l | egrep -i user.email'
+abbr -ag e       $EDITOR .
