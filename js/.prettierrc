@@ -5,6 +5,7 @@
   "singleQuote": true,
   "bracketSpacing": false,
   "arrowParens": "avoid",
+  "endOfLine": "lf",
   "plugins": [
     "/Users/dmotzenbecker/homebrew/lib/node_modules/prettier-plugin-svelte"
   ]
