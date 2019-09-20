@@ -16,7 +16,7 @@
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Dainty – Ayu Mirage",
   "editor.lightbulb.enabled": false,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "editor.renderIndentGuides": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -41,5 +41,8 @@
   "files.insertFinalNewline": true,
   "editor.glyphMargin": false,
   "terminal.integrated.fontSize": 14,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "explorer.confirmDragAndDrop": false,
+  "calva.lintOnSave": true,
+  "explorer.confirmDelete": false
 }
