@@ -1,4 +1,4 @@
-@google-cloud/functions-emulator
+@google-cloud/functions-framework
 babel-eslint
 dev-proxy
 diff-so-fancy
