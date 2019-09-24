@@ -9,6 +9,6 @@ function skeljs
   touch src/index.js
   touch src/style.sass
   code .
-  npm i -D parcel
+  npm i -D parcel parcel-plugin-static-files-copy
   npm run start
 end
