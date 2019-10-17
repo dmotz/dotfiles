@@ -44,5 +44,11 @@
   "files.trimTrailingWhitespace": true,
   "explorer.confirmDragAndDrop": false,
   "calva.lintOnSave": true,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
