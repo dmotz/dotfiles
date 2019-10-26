@@ -19,8 +19,7 @@ npm set init.author.email 'dan@oxism.com'
 npm set init.author.url 'https://oxism.com'
 npm set init.license 'MIT'
 
-git config --global pager.diff 'diff-so-fancy | less --tabs=1,5 -RFX'
-git config --global pager.show 'diff-so-fancy | less --tabs=1,5 -RFX'
+git config --global core.pager "delta --dark"
 
 # disable shell login message
 touch ~/.hushlogin

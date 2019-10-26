@@ -1,7 +1,6 @@
 @google-cloud/functions-framework
 babel-eslint
 dev-proxy
-diff-so-fancy
 distilla
 elm-analyse
 eslint
