@@ -1,6 +1,6 @@
 {:user
  {:plugins
-  [[cider/cider-nrepl "0.22.0"]
+  [[cider/cider-nrepl "0.22.4"]
    [lein-ancient "0.6.15"]
    [lein-cljfmt "0.6.4"]
    [jonase/eastwood "0.3.6"]
