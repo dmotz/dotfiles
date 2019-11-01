@@ -4,6 +4,7 @@ set -x PATH $PATH \
   $BREW_PATH/bin \
   $BREW_PATH/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin \
   $BREW_PATH/anaconda3/bin \
+  ~/Library/Python/3.7/bin \
   ~/Library/Android/sdk/emulator \
   ~/Library/Android/sdk/tools \
   ~/Library/Android/sdk/platform-tools \
