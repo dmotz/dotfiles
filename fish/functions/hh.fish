@@ -1,3 +1,3 @@
 function hh
-  history | grep -i $argv | tail -r
+  history | grep --color=always -i $argv
 end
