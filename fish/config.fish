@@ -38,6 +38,8 @@ set -x CUDA_HOME         /usr/local/cuda
 set -x DYLD_LIBRARY_PATH $DYLD_LIBRARY_PATH $CUDA_HOME/lib
 set -x LD_LIBRARY_PATH   $LD_LIBRARY_PATH $CUDA_HOME/lib64 $ANDROID_HOME/tools/lib
 
+set -x HOMEBREW_NO_ANALYTICS 1
+
 source ~/.iterm2_shell_integration.(basename $SHELL)
 
 if status --is-interactive
