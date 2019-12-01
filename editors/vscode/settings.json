@@ -1,7 +1,7 @@
 {
   "window.zoomLevel": 1,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.fontSize": 17,
   "editor.formatOnSave": true,
   "workbench.startupEditor": "newUntitledFile",
