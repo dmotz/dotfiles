@@ -42,6 +42,9 @@ set -x HOMEBREW_NO_ANALYTICS 1
 
 source ~/.iterm2_shell_integration.(basename $SHELL)
 
+alias python $BREW_PATH/bin/python3
+alias pip    $BREW_PATH/bin/pip3
+
 if status --is-interactive
   source ~/.config/fish/abbrs.fish
   source ~/.config/fish/bookmarks.fish
