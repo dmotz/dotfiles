@@ -4,6 +4,7 @@ ln -s $CONFIG_PATH/js/.eslintrc ~/.eslintrc
 ln -s $CONFIG_PATH/js/.prettierrc ~/.prettierrc
 ln -s $CONFIG_PATH/.lein ~/.lein
 ln -s $CONFIG_PATH/git/.gitignore_global ~/.gitignore_global
+ln -s $CONFIG_PATH/conda/.condarc ~/.condarc
 ln -s $CONFIG_PATH/editors/vscode/settings.json \
       ~/Library/Application\ Support/Code/User/settings.json
 ln -s $CONFIG_PATH/editors/vscode/keybindings.json \
