@@ -12,7 +12,7 @@ set -x PATH $PATH \
   ~/.local/bin \
   ~/.poetry/bin \
   ~/.cargo/bin \
-  '/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
+  /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
 
 set fish_greeting ''
 set HISTSIZE      100000
@@ -44,6 +44,10 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 alias python $BREW_PATH/bin/python3
 alias pip    $BREW_PATH/bin/pip3
+
+if test -e $BREW_PATH/anaconda3/bin/conda
+  eval $BREW_PATH/anaconda3/bin/conda 'shell.fish' 'hook' $argv | source
+end
 
 if status --is-interactive
   source ~/.config/fish/abbrs.fish
