@@ -12,12 +12,12 @@ ln -s $CONFIG_PATH/editors/vscode/keybindings.json \
 ln -s $CONFIG_PATH/editors/atom/config.cson ~/.atom/config.cson
 
 if test (uname) = Darwin
-  sudo ./macos/macos.sh
-  brew bundle install --file=./macos/Brewfile
+  sudo $CONFIG_PATH/macos/macos.sh
+  brew bundle install --file=$CONFIG_PATH/macos/Brewfile
   git config --global credential.helper osxkeychain
 end
 
-npm i -g (cat ./js/npmfile)
+npm i -g (cat $CONFIG_PATH/js/npmfile)
 npm set init.author.name 'Dan Motzenbecker'
 npm set init.author.email 'dan@oxism.com'
 npm set init.author.url 'https://oxism.com'
