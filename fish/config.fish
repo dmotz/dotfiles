@@ -51,6 +51,7 @@ end
 
 if status --is-interactive
   source ~/.config/fish/abbrs.fish
+  source ~/.config/fish/aliases.fish
   source ~/.config/fish/bookmarks.fish
   source ~/.config/fish/google.fish
 
