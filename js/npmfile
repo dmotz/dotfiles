@@ -4,6 +4,7 @@ degit
 dev-proxy
 distilla
 elm-analyse
+elm-format
 elm-outdated
 eslint
 eslint-config-prettier
