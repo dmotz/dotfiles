@@ -1,0 +1,13 @@
+[pager]
+	diff = delta --dark
+	show = delta --dark
+[user]
+	email = dan@oxism.com
+	name = Dan Motzenbecker
+[core]
+	excludesfile = ~/.gitignore_global
+	pager = delta --dark
+[credential]
+	helper = osxkeychain
+[http]
+	cookiefile = ~/.gitcookies
