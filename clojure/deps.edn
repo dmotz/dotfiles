@@ -1,0 +1,20 @@
+{:aliases
+ {:repl
+  {:extra-deps {com.bhauman/rebel-readline {:mvn/version "RELEASE"}
+                com.gfredericks/user.clj {:mvn/version "RELEASE"}
+                org.clojure/core.async {:mvn/version "RELEASE"}
+                org.clojure/core.logic {:mvn/version "RELEASE"}
+                org.clojure/test.check {:mvn/version "RELEASE"}
+                com.clojure-goes-fast/clj-java-decompiler {:mvn/version "RELEASE"}
+                com.clojure-goes-fast/clj-memory-meter {:mvn/version "RELEASE"}
+                com.clojure-goes-fast/clj-async-profiler {:mvn/version "RELEASE"}
+                com.clojure-goes-fast/jvm-alloc-rate-meter {:mvn/version "RELEASE"}
+                com.clojure-goes-fast/jvm-hiccup-meter {:mvn/version "RELEASE"}
+                io.aviso/pretty {:mvn/version "RELEASE"}
+                mvxcvi/puget {:mvn/version "RELEASE"}
+                com.hypirion/clj-xchart {:mvn/version "RELEASE"}
+                org.clojure/clojure {:mvn/version "RELEASE"}
+                generateme/fastmath {:mvn/version "RELEASE"}
+                clj-commons/pomegranate {:mvn/version "RELEASE"}}
+
+   :main-opts  ["-m" "rebel-readline.main"]}}}
