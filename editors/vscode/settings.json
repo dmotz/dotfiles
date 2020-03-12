@@ -10,6 +10,7 @@
   "editor.minimap.showSlider": "always",
   "zenMode.hideLineNumbers": false,
   "zenMode.hideTabs": false,
+  "terminal.external.osxExec": "iTerm.app",
   "diffEditor.ignoreTrimWhitespace": true,
   "workbench.iconTheme": null,
   "editor.minimap.enabled": false,
