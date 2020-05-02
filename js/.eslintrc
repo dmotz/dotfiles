@@ -70,7 +70,8 @@
     "react": {
       "version": "16.8.6",
       "flowVersion": "0.79.1"
-    }
+    },
+    "import/resolver": "webpack"
   },
 
   "overrides": [
