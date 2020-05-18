@@ -11,3 +11,5 @@
 	helper = osxkeychain
 [http]
 	cookiefile = ~/.gitcookies
+[pull]
+	rebase = false
