@@ -29,6 +29,7 @@ abbr -ag gl      'git log --color --graph --pretty=format:"%Cred%h%Creset -%C(ye
 abbr -ag gst     'git stash'
 abbr -ag gsta    'git stash apply'
 abbr -ag gundo   'git reset --soft "HEAD^"'
+abbr -ag gstats  'git log --format="%an" | sort | uniq -c | sort -nr'
 abbr -ag bru     'brew update; and brew outdated'
 abbr -ag brug    'brew upgrade; and brew cleanup'
 abbr -ag pgrep   'pgrep -i'
