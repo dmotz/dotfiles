@@ -13,7 +13,8 @@ ln -s $CONFIG_PATH/editors/atom/config.cson ~/.atom/config.cson
 ln -s $CONFIG_PATH/clojure/deps.edn ~/.clojure/deps.edn
 ln -s $CONFIG_PATH/clojure/user.clj ~/.clojure/user.clj
 ln -s $CONFIG_PATH/stack/config.yaml ~/.stack/config.yaml
-
+ln -s $CONFIG_PATH/stack/global-project/stack.yaml \
+      ~/.stack/global-project/stack.yaml
 
 if test (uname) = Darwin
   sudo $CONFIG_PATH/macos/macos.sh
