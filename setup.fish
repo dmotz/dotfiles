@@ -12,6 +12,8 @@ ln -s $CONFIG_PATH/editors/vscode/keybindings.json \
 ln -s $CONFIG_PATH/editors/atom/config.cson ~/.atom/config.cson
 ln -s $CONFIG_PATH/clojure/deps.edn ~/.clojure/deps.edn
 ln -s $CONFIG_PATH/clojure/user.clj ~/.clojure/user.clj
+ln -s $CONFIG_PATH/stack/config.yaml ~/.stack/config.yaml
+
 
 if test (uname) = Darwin
   sudo $CONFIG_PATH/macos/macos.sh
