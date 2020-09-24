@@ -19,6 +19,7 @@ eslint-plugin-react-native
 eslint-plugin-svelte3
 firebase-tools
 http-server
+lumo-cljs
 nib
 npm
 parcel
