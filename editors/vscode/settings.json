@@ -44,5 +44,6 @@
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "elmLS.elmAnalyseTrigger": "change"
 }
