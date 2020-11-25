@@ -27,5 +27,6 @@ prettier
 prettier-plugin-svelte
 spoof
 stylus
+terser
 tldr
 vtop
