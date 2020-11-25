@@ -25,6 +25,7 @@ npm
 parcel
 prettier
 prettier-plugin-svelte
+snowpack
 spoof
 stylus
 terser
