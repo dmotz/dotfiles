@@ -62,3 +62,4 @@ abbr -ag npmls   'npm ls -g --depth=0'
 abbr -ag http    'http-server --cors'
 abbr -ag gemail  'git config -l | egrep -i user.email'
 abbr -ag e       $EDITOR .
+abbr -ag cp      'cp -r'
