@@ -9,6 +9,10 @@
    [lein-exec "0.3.7"]
    [lein-kibit "0.1.7"]]
 
+  :dependencies [[antq/antq "RELEASE"]]
+
   :middleware [cider-nrepl.plugin/middleware]
+
+  :aliases {"outdated" ["run" "-m" "antq.core"]}
 
   :ultra {:color-scheme :solarized_dark}}}
