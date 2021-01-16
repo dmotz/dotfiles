@@ -5,11 +5,14 @@ function pomo
 
   for i in (seq 24)
     sleep 60
+    afplay /System/Library/Sounds/Tink.aiff
     echo '⏳' $i
   end
 
   t 1 'break time'
-  echo '⌛️ 25'
+  echo '⌛️ break'
+
   t 5 'cycle complete'
   echo '✅ done'
+  afplay /System/Library/Sounds/Glass.aiff
 end
