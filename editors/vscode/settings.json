@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
   "editor.fontSize": 17,
@@ -45,5 +45,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "elmLS.elmAnalyseTrigger": "change"
+  "elmLS.elmAnalyseTrigger": "change",
+  "tabnine.experimentalAutoImports": true
 }
