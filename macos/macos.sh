@@ -1,3 +1,5 @@
+xcode-select --install
+
 # Sourced from https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 
 # Disable sound effects on boot
