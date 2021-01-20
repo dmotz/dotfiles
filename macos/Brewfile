@@ -5,7 +5,6 @@ tap "dandavison/delta", "https://github.com/dandavison/delta"
 
 brew "ack"
 brew "bat"
-brew "borkdude/brew/clj-kondo"
 brew "cairo"
 brew "candid82/brew/joker"
 brew "clojure"
