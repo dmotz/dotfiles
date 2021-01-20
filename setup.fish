@@ -12,6 +12,8 @@ ln -s $CONFIG_PATH/editors/vscode/keybindings.json \
 
 ln -s $CONFIG_PATH/clojure/deps.edn ~/.clojure/deps.edn
 ln -s $CONFIG_PATH/clojure/user.clj ~/.clojure/user.clj
+
+mkdir -p ~/.stack
 ln -s $CONFIG_PATH/stack/config.yaml ~/.stack/config.yaml
 ln -s $CONFIG_PATH/stack/global-project/stack.yaml \
       ~/.stack/global-project/stack.yaml
