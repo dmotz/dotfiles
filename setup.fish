@@ -10,6 +10,7 @@ ln -s $CONFIG_PATH/editors/vscode/settings.json \
 ln -s $CONFIG_PATH/editors/vscode/keybindings.json \
       ~/Library/Application\ Support/Code/User/keybindings.json
 
+mkdir -p ~/.clojure
 ln -s $CONFIG_PATH/clojure/deps.edn ~/.clojure/deps.edn
 ln -s $CONFIG_PATH/clojure/user.clj ~/.clojure/user.clj
 
