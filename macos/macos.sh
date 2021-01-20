@@ -1,5 +1,7 @@
 xcode-select --install
 
+defaults write com.apple.finder QuitMenuItem -bool true
+
 # Sourced from https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 
 # Disable sound effects on boot
