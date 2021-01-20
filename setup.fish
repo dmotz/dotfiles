@@ -21,7 +21,7 @@ ln -s $CONFIG_PATH/stack/global-project/stack.yaml \
 
 if test (uname) = Darwin
   sudo $CONFIG_PATH/macos/macos.sh
-  brew bundle install --file=$CONFIG_PATH/macos/Brewfile
+  brew bundle install --file=$CONFIG_PATH/macos/Brewfile --verbose
   git config --global credential.helper osxkeychain
 end
 
