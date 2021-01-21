@@ -39,4 +39,5 @@ brew "wget"
 brew "yarn"
 brew "youtube-dl"
 
+cask "google-cloud-sdk"
 cask "maccy"
