@@ -1,5 +1,4 @@
 ln -s $CONFIG_PATH/fish ~/.config/fish
-ln -s $CONFIG_PATH/fish/fish_history ~/.local/share/fish/fish_history
 ln -s $CONFIG_PATH/js/.eslintrc ~/.eslintrc
 ln -s $CONFIG_PATH/js/.prettierrc ~/.prettierrc
 ln -s $CONFIG_PATH/.lein ~/.lein
