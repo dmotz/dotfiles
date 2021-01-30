@@ -23,6 +23,9 @@ if test (uname) = Darwin
   sudo $CONFIG_PATH/macos/macos.sh
   brew bundle install --file=$CONFIG_PATH/macos/Brewfile --verbose
   git config --global credential.helper osxkeychain
+
+  ln -s $CONFIG_PATH/iterm/custom.json \
+      ~/Library/Application\ Support/iTerm2/DynamicProfiles/custom.json
 end
 
 npm i -g (cat $CONFIG_PATH/js/npmfile)
