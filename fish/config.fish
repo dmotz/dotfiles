@@ -51,10 +51,10 @@ if test -e $BREW_PATH/anaconda3/bin/conda
 end
 
 if status --is-interactive
-  source ~/.config/fish/abbrs.fish
-  source ~/.config/fish/aliases.fish
-  source ~/.config/fish/bookmarks.fish
-  source ~/.config/fish/google.fish
+  source $CONFIG_PATH/fish/abbrs.fish
+  source $CONFIG_PATH/fish/aliases.fish
+  source $CONFIG_PATH/fish/bookmarks.fish
+  source $CONFIG_PATH/fish/google.fish
 
   set fish_color_normal      ccccc6
   set fish_color_command     b6e354 --bold
