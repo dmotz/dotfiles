@@ -1,23 +1,30 @@
-ln -s $CONFIG_PATH/fish ~/.config/fish
+function lnk
+  rm -r argv[2]
+  ln -s argv[1] argv[2]
+end
+
+mkdir -p ~/.config
+
+lnk $CONFIG_PATH/fish ~/.config/fish
 source $CONFIG_PATH/fish/config.fish
 
-ln -s $CONFIG_PATH/js/.eslintrc ~/.eslintrc
-ln -s $CONFIG_PATH/js/.prettierrc ~/.prettierrc
-ln -s $CONFIG_PATH/.lein ~/.lein
-ln -s $CONFIG_PATH/git/.gitignore_global ~/.gitignore_global
-ln -s $CONFIG_PATH/conda/.condarc ~/.condarc
-ln -s $CONFIG_PATH/editors/vscode/settings.json \
+lnk $CONFIG_PATH/js/.eslintrc ~/.eslintrc
+lnk $CONFIG_PATH/js/.prettierrc ~/.prettierrc
+lnk $CONFIG_PATH/.lein ~/.lein
+lnk $CONFIG_PATH/git/.gitignore_global ~/.gitignore_global
+lnk $CONFIG_PATH/conda/.condarc ~/.condarc
+lnk $CONFIG_PATH/editors/vscode/settings.json \
       ~/Library/Application\ Support/Code/User/settings.json
-ln -s $CONFIG_PATH/editors/vscode/keybindings.json \
+lnk $CONFIG_PATH/editors/vscode/keybindings.json \
       ~/Library/Application\ Support/Code/User/keybindings.json
 
 mkdir -p ~/.clojure
-ln -s $CONFIG_PATH/clojure/deps.edn ~/.clojure/deps.edn
-ln -s $CONFIG_PATH/clojure/user.clj ~/.clojure/user.clj
+lnk $CONFIG_PATH/clojure/deps.edn ~/.clojure/deps.edn
+lnk $CONFIG_PATH/clojure/user.clj ~/.clojure/user.clj
 
 mkdir -p ~/.stack
-ln -s $CONFIG_PATH/stack/config.yaml ~/.stack/config.yaml
-ln -s $CONFIG_PATH/stack/global-project/stack.yaml \
+lnk $CONFIG_PATH/stack/config.yaml ~/.stack/config.yaml
+lnk $CONFIG_PATH/stack/global-project/stack.yaml \
       ~/.stack/global-project/stack.yaml
 
 if test (uname) = Darwin
