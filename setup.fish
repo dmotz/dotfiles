@@ -3,11 +3,11 @@ function lnk
   ln -s argv[1] argv[2]
 end
 
+source ./fish/config.fish
+
 mkdir -p ~/.config
 
 lnk $CONFIG_PATH/fish ~/.config/fish
-source $CONFIG_PATH/fish/config.fish
-
 lnk $CONFIG_PATH/js/.eslintrc ~/.eslintrc
 lnk $CONFIG_PATH/js/.prettierrc ~/.prettierrc
 lnk $CONFIG_PATH/.lein ~/.lein
