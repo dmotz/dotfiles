@@ -46,5 +46,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "elmLS.elmAnalyseTrigger": "change",
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.shell.osx": "/Users/dmotzenbecker/homebrew/bin/fish"
 }
