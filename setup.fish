@@ -23,7 +23,7 @@ mkdir -p ~/.clojure
 lnk $CONFIG_PATH/clojure/deps.edn ~/.clojure/deps.edn
 lnk $CONFIG_PATH/clojure/user.clj ~/.clojure/user.clj
 
-mkdir -p ~/.stack
+mkdir -p ~/.stack/global-project
 lnk $CONFIG_PATH/stack/config.yaml ~/.stack/config.yaml
 lnk $CONFIG_PATH/stack/global-project/stack.yaml \
       ~/.stack/global-project/stack.yaml
