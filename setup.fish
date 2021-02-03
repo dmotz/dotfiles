@@ -4,6 +4,7 @@ function lnk
 end
 
 source ./fish/config.fish
+touch ./fish/bookmarks.fish
 
 mkdir -p ~/.config
 
