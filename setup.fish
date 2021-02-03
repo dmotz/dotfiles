@@ -1,6 +1,6 @@
 function lnk
-  rm -rf argv[2]
-  ln -s argv[1] argv[2]
+  rm -rf $argv[2]
+  ln -s $argv[1] $argv[2]
 end
 
 source ./fish/config.fish

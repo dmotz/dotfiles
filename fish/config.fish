@@ -54,7 +54,6 @@ if status --is-interactive
   source $CONFIG_PATH/fish/abbrs.fish
   source $CONFIG_PATH/fish/aliases.fish
   source $CONFIG_PATH/fish/bookmarks.fish
-  source $CONFIG_PATH/fish/google.fish
 
   set fish_color_normal      ccccc6
   set fish_color_command     b6e354 --bold
