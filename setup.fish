@@ -44,8 +44,6 @@ npm set init.author.email 'dan@oxism.com'
 npm set init.author.url 'https://oxism.com'
 npm set init.license 'MIT'
 
-git config --global core.pager "delta --dark"
-
 # disable shell login message
 touch ~/.hushlogin
 
