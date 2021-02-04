@@ -30,6 +30,7 @@ lnk $CONFIG_PATH/stack/global-project/stack.yaml \
       ~/.stack/global-project/stack.yaml
 
 if test (uname) = Darwin
+  xcode-select --install
   sudo $CONFIG_PATH/macos/macos.sh
   brew bundle install --file=$CONFIG_PATH/macos/Brewfile --verbose
   git config --global credential.helper osxkeychain
