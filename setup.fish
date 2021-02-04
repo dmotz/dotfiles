@@ -12,6 +12,7 @@ lnk $CONFIG_PATH/fish ~/.config/fish
 lnk $CONFIG_PATH/js/.eslintrc ~/.eslintrc
 lnk $CONFIG_PATH/js/.prettierrc ~/.prettierrc
 lnk $CONFIG_PATH/.lein ~/.lein
+lnk $CONFIG_PATH/git/.gitconfig ~/.gitconfig
 lnk $CONFIG_PATH/git/.gitignore_global ~/.gitignore_global
 lnk $CONFIG_PATH/conda/.condarc ~/.condarc
 lnk $CONFIG_PATH/editors/vscode/settings.json \
