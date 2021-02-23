@@ -12,7 +12,7 @@ set -x PATH $PATH \
   ~/.local/bin \
   ~/.poetry/bin \
   ~/.cargo/bin \
-  /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
+  /Applications/Code.app/Contents/Resources/app/bin
 
 set fish_greeting ''
 set HISTSIZE      100000
