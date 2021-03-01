@@ -9,5 +9,6 @@ fish/completions
 fish/functions/__bass.py
 fish/functions/bass.fish
 fish/functions/fisher.fish
+fish/functions/_pisces*
 fish/conf.d
 fish/.config.fish.swp
