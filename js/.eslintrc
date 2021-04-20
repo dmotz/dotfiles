@@ -26,7 +26,7 @@
     "array-bracket-spacing": [2, "never"],
     "arrow-body-style": [2, "as-needed"],
     "linebreak-style": [2, "unix"],
-    "quotes": [2, "single"],
+    "quotes": [2, "single", "avoid-escape"],
     "semi": [2, "never"],
     "max-len": [
       2,
