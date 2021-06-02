@@ -1,12 +1,5 @@
 {
-  "plugins": [
-    "import",
-    "react",
-    "react-hooks",
-    "react-native",
-    "flowtype",
-    "svelte3"
-  ],
+  "plugins": ["import", "react", "react-hooks", "react-native", "svelte3"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
@@ -54,9 +47,7 @@
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:react/recommended",
-    "plugin:flowtype/recommended",
     "prettier",
-    "prettier/flowtype",
     "prettier/react"
   ],
 
@@ -68,8 +59,7 @@
 
   "settings": {
     "react": {
-      "version": "16.8.6",
-      "flowVersion": "0.79.1"
+      "version": "17.0.1"
     },
     "import/resolver": "webpack"
   },
