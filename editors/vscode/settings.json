@@ -1,5 +1,4 @@
 {
-  "window.zoomLevel": 0,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
   "editor.fontSize": 17,
@@ -13,12 +12,11 @@
   "terminal.external.osxExec": "iTerm.app",
   "diffEditor.ignoreTrimWhitespace": true,
   "workbench.iconTheme": null,
-  "editor.minimap.enabled": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Dainty – Ayu Mirage",
   "editor.lightbulb.enabled": false,
   "workbench.statusBar.visible": true,
   "editor.renderIndentGuides": false,
+  "prettier.resolveGlobalModules": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -37,7 +35,6 @@
   "terminal.integrated.fontSize": 14,
   "files.trimTrailingWhitespace": true,
   "explorer.confirmDragAndDrop": false,
-  "calva.lintOnSave": true,
   "explorer.confirmDelete": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -45,7 +42,39 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "elmLS.elmAnalyseTrigger": "change",
   "tabnine.experimentalAutoImports": true,
-  "terminal.integrated.shell.osx": "/Users/dmotzenbecker/homebrew/bin/fish"
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Dainty – Dracula",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sass]": {
+    "editor.defaultFormatter": "syler.sass-indented"
+  },
+  "[elm]": {
+    "editor.defaultFormatter": "elmTooling.elm-ls-vscode"
+  },
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "go.toolsManagement.autoUpdate": true,
+  "terminal.integrated.profiles.osx": {
+    "fish": {
+      "path": "$BREW_PATH/bin/fish",
+      "args": ["-l"]
+    }
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  }
 }
