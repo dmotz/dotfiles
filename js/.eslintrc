@@ -48,8 +48,7 @@
     "plugin:import/errors",
     "plugin:import/react",
     "plugin:react/recommended",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
 
   "env": {
