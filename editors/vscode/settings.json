@@ -6,7 +6,7 @@
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.glyphMargin": false,
-  "editor.inlineSuggest.enabled": true,
+  "editor.inlineSuggest.enabled": false,
   "editor.lightbulb.enabled": false,
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
