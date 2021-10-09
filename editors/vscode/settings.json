@@ -72,6 +72,9 @@
 
   "tabnine.experimentalAutoImports": true,
 
+  "[clojure]": {
+    "editor.defaultFormatter": "betterthantomorrow.calva"
+  },
 
   "[elm]": {
     "editor.defaultFormatter": "elmTooling.elm-ls-vscode"
@@ -99,5 +102,6 @@
 
   "[svelte]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "svelte.enable-ts-plugin": true
 }
