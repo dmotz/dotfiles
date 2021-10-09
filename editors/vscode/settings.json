@@ -13,7 +13,6 @@
   "editor.minimap.showSlider": "always",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderControlCharacters": false,
-  "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "selection",
   "editor.rulers": [80],
   "editor.tabSize": 2,
