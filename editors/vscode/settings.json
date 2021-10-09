@@ -4,6 +4,7 @@
   "editor.fontSize": 17,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
   "editor.glyphMargin": false,
   "editor.inlineSuggest.enabled": true,
   "editor.lightbulb.enabled": false,
