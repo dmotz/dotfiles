@@ -64,3 +64,4 @@ abbr -ag http    'http-server --cors'
 abbr -ag gemail  'git config -l | egrep -i user.email'
 abbr -ag e       $EDITOR .
 abbr -ag cp      'cp -r'
+abbr -ag pret    'cp $CONFIG_PATH/js/.prettierrc .'
