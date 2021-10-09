@@ -34,8 +34,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
 
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
 
   "zenMode.hideLineNumbers": false,
   "zenMode.hideTabs": false,
@@ -57,7 +56,6 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-
 
   "eslint.validate": ["javascript", "svelte"],
 
