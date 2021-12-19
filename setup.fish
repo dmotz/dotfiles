@@ -29,6 +29,9 @@ lnk $CONFIG_PATH/stack/config.yaml ~/.stack/config.yaml
 lnk $CONFIG_PATH/stack/global-project/stack.yaml \
       ~/.stack/global-project/stack.yaml
 
+mkdir -p ~/.config/lsd
+lnk $CONFIG_PATH/lsd/config.yaml ~/.config/lsd/config.yaml
+
 if test (uname) = Darwin
   xcode-select --install
   sudo $CONFIG_PATH/macos/macos.sh
