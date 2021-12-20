@@ -9,3 +9,5 @@ icons:
   when: never
 
 no-symlink: true
+
+indicators: true
