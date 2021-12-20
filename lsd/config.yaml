@@ -7,3 +7,5 @@ date: '+%d %b %y'
 
 icons:
   when: never
+
+no-symlink: true
