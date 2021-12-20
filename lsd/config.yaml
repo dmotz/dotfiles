@@ -7,5 +7,3 @@ date: '+%d %b %y'
 
 icons:
   when: never
-
-total-size: true
