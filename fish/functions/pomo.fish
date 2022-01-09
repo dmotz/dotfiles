@@ -1,11 +1,16 @@
-function pomo
+function pomo -a 'quiet'
+  argparse 'q/quiet' -- $argv
   tput reset
   echo '🍅' (date +"%H:%M  -  %m.%d.%y")
   echo ''
 
   for i in (seq 24)
     sleep 60
-    afplay /System/Library/Sounds/Tink.aiff
+
+    if test -z $quiet
+      afplay /System/Library/Sounds/Tink.aiff
+    end
+
     echo '⏳' $i
   end
 
@@ -14,5 +19,8 @@ function pomo
 
   t 5 'cycle complete'
   echo '✅ done'
-  afplay /System/Library/Sounds/Glass.aiff
+
+  if test -z $quiet
+    afplay /System/Library/Sounds/Glass.aiff
+  end
 end
