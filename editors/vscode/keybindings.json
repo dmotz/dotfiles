@@ -2,5 +2,7 @@
   {"key": "cmd+shift+k", "command": "workbench.action.terminal.focusNext"},
   {"key": "cmd+shift+j", "command": "workbench.action.terminal.focusPrevious"},
   {"key": "cmd+shift+t", "command": "workbench.action.toggleMaximizedPanel"},
-  {"key": "ctrl+p", "command": "editor.action.peekDefinition"}
+  {"key": "ctrl+p", "command": "editor.action.peekDefinition"},
+  {"key": "cmd+shift+j", "command": "workbench.action.terminal.focus"},
+  {"key": "cmd+shift+j", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"}
 ]
