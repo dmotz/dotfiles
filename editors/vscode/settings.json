@@ -48,6 +48,8 @@
     }
   },
 
+  "calva.showCalvaSaysOnStart": false,
+
   "debug.javascript.autoAttachFilter": "onlyWithFlag",
 
   "diffEditor.ignoreTrimWhitespace": true,
