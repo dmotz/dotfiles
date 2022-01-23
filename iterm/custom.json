@@ -132,7 +132,8 @@
         "Red Component": 0.30241936445236206,
         "Blue Component": 0.30241936445236206
       },
-      "Use Bright Bold": true
+      "Use Bright Bold": true,
+      "Unlimited Scrollback": true
     }
   ]
 }
