@@ -1,15 +1,33 @@
-[pager]
-	diff = delta --dark
-	show = delta --dark
 [user]
 	email = dan@oxism.com
 	name = Dan Motzenbecker
+
 [core]
 	excludesfile = ~/.gitignore_global
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default
+
 [credential]
 	helper = osxkeychain
+
 [http]
 	cookiefile = ~/.gitcookies
+
 [pull]
 	rebase = false
+
+[color]
+	ui = true
+	colorMoved = default
+
+[delta]
+	navigate = true
+	line-numbers = true
