@@ -41,14 +41,14 @@ set -x LD_LIBRARY_PATH   $LD_LIBRARY_PATH $CUDA_HOME/lib64 $ANDROID_HOME/tools/l
 
 set -x HOMEBREW_NO_ANALYTICS 1
 
-source ~/.iterm2_shell_integration.(basename $SHELL)
-
 alias python $BREW_PATH/bin/python3
 alias pip    $BREW_PATH/bin/pip3
 
 if test -e $BREW_PATH/anaconda3/bin/conda
   eval $BREW_PATH/anaconda3/bin/conda 'shell.fish' 'hook' $argv | source
 end
+
+source ~/.iterm2_shell_integration.fish
 
 if status --is-interactive
   source $CONFIG_PATH/fish/abbrs.fish
