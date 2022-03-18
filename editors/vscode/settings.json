@@ -41,12 +41,7 @@
 
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.profiles.osx": {
-    "fish": {
-      "path": "$BREW_PATH/bin/fish",
-      "args": ["-l"]
-    }
-  },
+  "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
 
   "calva.showCalvaSaysOnStart": false,
 
