@@ -2,7 +2,6 @@
 babel-eslint
 degit
 dev-proxy
-diff-so-fancy
 distilla
 elm-analyse
 elm-format
