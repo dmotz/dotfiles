@@ -6,6 +6,7 @@ distilla
 elm-analyse
 elm-format
 elm-outdated
+elm-review
 elm-test
 eslint
 eslint-config-prettier
