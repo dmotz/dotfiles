@@ -1,4 +1,4 @@
-set -x BREW_PATH ~/homebrew
+set -x BREW_PATH /opt/homebrew
 
 set -x PATH $PATH \
   $BREW_PATH/bin \
