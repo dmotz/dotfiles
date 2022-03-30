@@ -8,6 +8,6 @@
   "endOfLine": "lf",
   "trailingComma": "none",
   "plugins": [
-    "/Users/dmotzenbecker/homebrew/lib/node_modules/prettier-plugin-svelte"
+    "/opt/homebrew/lib/node_modules/prettier-plugin-svelte"
   ]
 }
