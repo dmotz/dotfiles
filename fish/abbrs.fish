@@ -64,7 +64,7 @@ abbr -ag nixn    'rm -rf node_modules; npm i; notif done'
 abbr -ag co      'code .'
 abbr -ag rmr     'rm -rf'
 abbr -ag npmls   'npm ls -g --depth=0'
-abbr -ag http    'http-server --cors'
+abbr -ag serv    'http-server --cors'
 abbr -ag gemail  'git config -l | egrep -i user.email'
 abbr -ag e       $EDITOR .
 abbr -ag cp      'cp -r'
