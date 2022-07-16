@@ -1,5 +1,5 @@
+@babel/eslint-parser
 @google-cloud/functions-framework
-babel-eslint
 degit
 dev-proxy
 distilla
