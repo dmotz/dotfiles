@@ -56,18 +56,13 @@
 
   "eslint.validate": ["javascript", "svelte"],
 
-  "github.copilot.enable": {
-    "*": false,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": false
-  },
-
-  "go.toolsManagement.autoUpdate": true,
-
   "prettier.resolveGlobalModules": true,
 
+  "svelte.enable-ts-plugin": true,
+
   "tabnine.experimentalAutoImports": true,
+
+  "typescript.tsserver.log": "off",
 
   "[clojure]": {
     "editor.defaultFormatter": "betterthantomorrow.calva"
@@ -100,5 +95,5 @@
   "[svelte]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "svelte.enable-ts-plugin": true
+  "workbench.colorTheme": "Dainty – Dracula"
 }
