@@ -43,10 +43,11 @@ if test (uname) = Darwin
 end
 
 npm i -g (cat $CONFIG_PATH/js/npmfile)
-npm set init.author.name 'Dan Motzenbecker'
-npm set init.author.email 'dan@oxism.com'
-npm set init.author.url 'https://oxism.com'
-npm set init.license 'MIT'
+npm config set init-author-name 'Dan Motzenbecker'
+npm config set init-author-email 'dan@oxism.com'
+npm config set init-author-url 'https://oxism.com'
+npm config set init-license 'MIT'
+npm config set init-version 0.0.0
 
 # disable shell login message
 touch ~/.hushlogin
