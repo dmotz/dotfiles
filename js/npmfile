@@ -23,6 +23,7 @@ http-server
 lumo-cljs
 nib
 npm
+npm-check-updates
 parcel
 prettier
 prettier-plugin-svelte
