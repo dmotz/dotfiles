@@ -4,6 +4,7 @@ tap "homebrew/core"
 
 brew "ack"
 brew "bat"
+brew "bluesnooze"
 brew "cairo"
 brew "candid82/brew/joker"
 brew "clojure"
