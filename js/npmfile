@@ -1,4 +1,5 @@
 @babel/eslint-parser
+@babel/plugin-syntax-import-assertions
 @google-cloud/functions-framework
 degit
 dev-proxy
