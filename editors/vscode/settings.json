@@ -95,6 +95,5 @@
 
   "[svelte]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "svelte.plugin.svelte.note-new-transformation": false
+  }
 }
