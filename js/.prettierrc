@@ -6,8 +6,5 @@
   "bracketSpacing": false,
   "arrowParens": "avoid",
   "endOfLine": "lf",
-  "trailingComma": "none",
-  "plugins": [
-    "/opt/homebrew/lib/node_modules/prettier-plugin-svelte"
-  ]
+  "trailingComma": "none"
 }
