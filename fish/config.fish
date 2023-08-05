@@ -24,7 +24,6 @@ set -x EDITOR code
 set -x GREP_OPTIONS '--color=always'
 set -x GREP_COLOR   '1;35;40'
 
-set -x NODE_ENV  'development'
 set -x NODE_PATH $BREW_PATH/lib/node_modules
 set -x NVM_DIR   ~/.nvm
 set -x N_PREFIX  ~/.n
