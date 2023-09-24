@@ -6,7 +6,7 @@
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.glyphMargin": false,
-  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.enabled": true,
   "editor.lightbulb.enabled": false,
   "editor.linkedEditing": false,
   "editor.minimap.enabled": false,
@@ -16,14 +16,15 @@
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "selection",
   "editor.rulers": [80],
-  "editor.suggest.preview": false,
+  "editor.screenReaderAnnounceInlineSuggestion": false,
+  "editor.suggest.preview": true,
   "editor.tabSize": 2,
 
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Dainty – Dracula",
+  "workbench.colorTheme": "Dainty – Material Theme Palenight",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
@@ -42,7 +43,8 @@
 
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.shell.osx": "/opt/homebrew/bin/fish",
+  "terminal.integrated.shellIntegration.history": 1000,
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
 
   "calva.showCalvaSaysOnStart": false,
 
@@ -53,6 +55,13 @@
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
+  },
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
   },
 
   "eslint.validate": ["javascript", "svelte"],
@@ -94,7 +103,6 @@
   },
 
   "[svelte]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "terminal.integrated.shellIntegration.history": 1000
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
 }
