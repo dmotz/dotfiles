@@ -7,7 +7,7 @@
   "editor.guides.bracketPairs": true,
   "editor.glyphMargin": false,
   "editor.inlineSuggest.enabled": true,
-  "editor.lightbulb.enabled": false,
+  "editor.lightbulb.enabled": "off",
   "editor.linkedEditing": false,
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
@@ -23,7 +23,6 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Dainty – Material Theme Palenight",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -39,7 +38,6 @@
   "telemetry.telemetryLevel": "off",
 
   "zenMode.hideLineNumbers": false,
-  "zenMode.hideTabs": false,
 
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
@@ -69,8 +67,30 @@
   "prettier.resolveGlobalModules": true,
 
   "svelte.enable-ts-plugin": true,
-
-  "tabnine.experimentalAutoImports": true,
+  "svelte.plugin.svelte.compilerWarnings": {
+    "a11y-aria-attributes": "ignore",
+    "a11y-incorrect-aria-attribute-type": "ignore",
+    "a11y-unknown-aria-attribute": "ignore",
+    "a11y-hidden": "ignore",
+    "a11y-misplaced-role": "ignore",
+    "a11y-unknown-role": "ignore",
+    "a11y-no-abstract-role": "ignore",
+    "a11y-no-redundant-roles": "ignore",
+    "a11y-role-has-required-aria-props": "ignore",
+    "a11y-accesskey": "ignore",
+    "a11y-autofocus": "ignore",
+    "a11y-misplaced-scope": "ignore",
+    "a11y-positive-tabindex": "ignore",
+    "a11y-invalid-attribute": "ignore",
+    "a11y-missing-attribute": "ignore",
+    "a11y-img-redundant-alt": "ignore",
+    "a11y-label-has-associated-control": "ignore",
+    "a11y-media-has-caption": "ignore",
+    "a11y-distracting-elements": "ignore",
+    "a11y-structure": "ignore",
+    "a11y-mouse-events-have-key-events": "ignore",
+    "a11y-missing-content": "ignore"
+  },
 
   "typescript.tsserver.log": "off",
 
@@ -104,5 +124,13 @@
 
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
-  }
+  },
+  "workbench.activityBar.location": "hidden",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "’": true
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "editor.stickyScroll.enabled": true
 }
