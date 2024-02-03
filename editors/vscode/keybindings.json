@@ -4,5 +4,10 @@
   {"key": "cmd+shift+t", "command": "workbench.action.toggleMaximizedPanel"},
   {"key": "ctrl+p", "command": "editor.action.peekDefinition"},
   {"key": "cmd+shift+j", "command": "workbench.action.terminal.focus"},
-  {"key": "cmd+shift+j", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"}
+  {
+    "key": "cmd+shift+j",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {"key": "shift+cmd+e", "command": "workbench.view.explorer"}
 ]
