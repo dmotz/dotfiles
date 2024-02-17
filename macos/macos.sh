@@ -133,3 +133,9 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
+# Set the duration of the Dock animation to 0.5 seconds.
+defaults write com.apple.dock autohide-time-modifier -float 0.5 && killall Dock
+
+# Configure the Dock to have the fastest response time.
+defaults write com.apple.dock autohide-delay -int 0 && killall Dock
