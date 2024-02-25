@@ -20,7 +20,6 @@ eslint-plugin-react-hooks
 eslint-plugin-react-native
 eslint-plugin-svelte3
 firebase-tools
-http-server
 lumo-cljs
 nib
 npm
@@ -28,6 +27,7 @@ npm-check-updates
 parcel
 prettier
 prettier-plugin-svelte
+serve
 snowpack
 spoof
 stylus
