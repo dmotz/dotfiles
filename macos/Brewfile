@@ -46,3 +46,4 @@ brew "youtube-dl"
 
 cask "google-cloud-sdk"
 cask "maccy"
+cask "sloth"
