@@ -30,7 +30,6 @@
   "workbench.enableExperiments": false,
   "workbench.iconTheme": null,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
 
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
