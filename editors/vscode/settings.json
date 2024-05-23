@@ -91,7 +91,10 @@
     "a11y-missing-content": "ignore"
   },
 
+  "javascript.suggest.autoImports": false,
+
   "typescript.tsserver.log": "off",
+  "typescript.suggest.autoImports": false,
 
   "[clojure]": {
     "editor.defaultFormatter": "betterthantomorrow.calva"
