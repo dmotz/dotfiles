@@ -1,4 +1,5 @@
 {
+  "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontSize": 17,
@@ -17,12 +18,17 @@
   "editor.renderWhitespace": "selection",
   "editor.rulers": [80],
   "editor.screenReaderAnnounceInlineSuggestion": false,
+  "editor.stickyScroll.enabled": true,
   "editor.suggest.preview": true,
   "editor.tabSize": 2,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "’": true
+  },
 
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
+  "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "Dainty – Material Theme Palenight",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -60,6 +66,7 @@
     "markdown": false,
     "scminput": false
   },
+  "github.copilot.editor.enableAutoCompletions": true,
 
   "eslint.validate": ["javascript", "svelte"],
 
@@ -120,6 +127,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+
   "[sass]": {
     "editor.defaultFormatter": "syler.sass-indented"
   },
@@ -127,14 +138,7 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "workbench.activityBar.location": "hidden",
-  "editor.unicodeHighlight.allowedCharacters": {
-    "’": true
-  },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
-  "editor.stickyScroll.enabled": true,
+
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   }
