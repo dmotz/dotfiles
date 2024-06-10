@@ -46,7 +46,7 @@
 
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.shellIntegration.history": 1000,
+  "terminal.integrated.shellIntegration.history": 10000,
   "terminal.integrated.confirmOnExit": "hasChildProcesses",
 
   "calva.showCalvaSaysOnStart": false,
