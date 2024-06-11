@@ -45,8 +45,8 @@ export default [
       'prefer-regex-literals': 'error',
       'prefer-rest-params': 'error',
       'prefer-spread': 'error',
-      'require-await': 'error',
-      'require-atomic-updates': 'error'
+      'require-atomic-updates': 'error',
+      'require-await': 'error'
     }
   }
 ]
