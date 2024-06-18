@@ -23,7 +23,6 @@ export default [
       'no-labels': 'error',
       'no-lonely-if': 'error',
       'no-multi-str': 'error',
-      'no-promise-executor-return': 'error',
       'no-self-compare': 'error',
       'no-sequences': 'error',
       'no-template-curly-in-string': 'error',
