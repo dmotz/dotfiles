@@ -1,4 +1,5 @@
 abbr -ag g       'egrep -i'
+abbr -ag ag      'ag -W 120'
 abbr -ag l       'lsd -l'
 abbr -ag ll      'lsd -lA'
 abbr -ag lll     'lsd -lAt'
