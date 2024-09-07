@@ -127,6 +127,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
