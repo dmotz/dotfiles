@@ -29,7 +29,7 @@
   "files.trimTrailingWhitespace": true,
 
   "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "Dainty – Material Theme Palenight",
+  "workbench.colorTheme": "Dainty – Material Theme Ocean",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
