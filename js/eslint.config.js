@@ -1,11 +1,21 @@
+import js from '@eslint/js'
 import globals from 'globals'
-import pluginJs from '@eslint/js'
 
 export default [
-  {languageOptions: {globals: {...globals.browser, process: true}}},
-  pluginJs.configs.recommended,
+  {
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: {...globals.browser, process: true},
+      parserOptions: {
+        ecmaVersion: 'latest',
+        ecmaFeatures: {jsx: true},
+        sourceType: 'module'
+      }
+    }
+  },
   {
     rules: {
+      ...js.configs.recommended,
       'array-callback-return': 'error',
       'arrow-body-style': 'error',
       camelcase: 'error',
