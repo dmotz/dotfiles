@@ -9,20 +9,18 @@ touch ./fish/bookmarks.fish
 mkdir -p ~/.config
 
 lnk $CONFIG_PATH/fish ~/.config/fish
-lnk $CONFIG_PATH/js/.eslintrc ~/.eslintrc
-lnk $CONFIG_PATH/js/.prettierrc ~/.prettierrc
-lnk $CONFIG_PATH/.lein ~/.lein
 lnk $CONFIG_PATH/git/.gitconfig ~/.gitconfig
 lnk $CONFIG_PATH/git/.gitignore_global ~/.gitignore_global
-lnk $CONFIG_PATH/conda/.condarc ~/.condarc
-lnk $CONFIG_PATH/editors/vscode/settings.json \
-      ~/Library/Application\ Support/Code/User/settings.json
-lnk $CONFIG_PATH/editors/vscode/keybindings.json \
-      ~/Library/Application\ Support/Code/User/keybindings.json
+
+# lnk $CONFIG_PATH/editors/vscode/settings.json \
+#       ~/Library/Application\ Support/Code/User/settings.json
+# lnk $CONFIG_PATH/editors/vscode/keybindings.json \
+#       ~/Library/Application\ Support/Code/User/keybindings.json
 
 mkdir -p ~/.clojure
 lnk $CONFIG_PATH/clojure/deps.edn ~/.clojure/deps.edn
 lnk $CONFIG_PATH/clojure/user.clj ~/.clojure/user.clj
+lnk $CONFIG_PATH/.lein ~/.lein
 
 mkdir -p ~/.stack/global-project
 lnk $CONFIG_PATH/stack/config.yaml ~/.stack/config.yaml
@@ -52,6 +50,7 @@ npm config set init-version 0.0.0
 # disable shell login message
 touch ~/.hushlogin
 
+# may have to edit /etc/shells manually
 sudo echo $BREW_PATH/bin/fish >> /etc/shells
 chsh -s $BREW_PATH/bin/fish
 
