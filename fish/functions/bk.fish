@@ -1,11 +1,18 @@
 function bk
-  set parts (string split . $argv)
+  if test -z "$argv[1]"
+    echo "Usage: bk <filename>"
+    return 1
+  end
 
-  if test -n "$parts[2]"
-    set ext ".$parts[2]"
+  set filename $argv[1]
+  set parts (string split . -- "$filename")
+  set basename $parts[1]
+
+  if set -q parts[2]
+    set ext "."(string join . $parts[2..])
   else
     set ext ""
   end
 
-  cp $argv $parts[1]"."(date +%Y-%m-%d_%H:%M)".bk$ext"
+  cp -- "$filename" "$basename."(date +%Y-%m-%d_%H:%M)".bk$ext"
 end
