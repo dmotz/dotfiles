@@ -1,21 +1,14 @@
 import js from '@eslint/js'
 import globals from 'globals'
+import {defineConfig} from 'eslint/config'
 
-export default [
+export default defineConfig([
   {
-    languageOptions: {
-      ecmaVersion: 2020,
-      globals: {...globals.browser, process: true},
-      parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: {jsx: true},
-        sourceType: 'module'
-      }
-    }
-  },
-  {
+    files: ['**/*.{js,mjs,cjs}'],
+    plugins: {js},
+    extends: ['js/recommended'],
+    languageOptions: {globals: globals.node},
     rules: {
-      ...js.configs.recommended,
       'array-callback-return': 'error',
       'arrow-body-style': 'error',
       camelcase: 'error',
@@ -64,4 +57,4 @@ export default [
       'require-await': 'error'
     }
   }
-]
+])
