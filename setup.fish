@@ -30,13 +30,16 @@ lnk $CONFIG_PATH/stack/global-project/stack.yaml \
 mkdir -p ~/.config/lsd
 lnk $CONFIG_PATH/lsd/config.yaml ~/.config/lsd/config.yaml
 
+mkdir -p ~/.config/ghostty
+lnk $CONFIG_PATH/ghostty/config ~/.config/ghostty/config
+
 if test (uname) = Darwin
   xcode-select --install
   sudo $CONFIG_PATH/macos/macos.sh
   brew bundle install --file=$CONFIG_PATH/macos/Brewfile --verbose
   git config --global credential.helper osxkeychain
 
-  ln -s $CONFIG_PATH/iterm/custom.json \
+  lnk $CONFIG_PATH/iterm/custom.json \
       ~/Library/Application\ Support/iTerm2/DynamicProfiles/custom.json
 end
 
