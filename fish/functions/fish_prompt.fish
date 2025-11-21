@@ -18,7 +18,7 @@ function fish_prompt
 
   if test -n "$git_branch"
     set_color -o red
-    echo -n " ($git_branch)"
+    echo -n " $git_branch"
   end
 
   echo
