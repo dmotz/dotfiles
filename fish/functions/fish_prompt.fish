@@ -17,7 +17,14 @@ function fish_prompt
   end
 
   if test -n "$git_branch"
-    set_color -o red
+    set -l git_dirty (git status --porcelain 2>/dev/null)
+
+    if test -n "$git_dirty"
+      set_color -o red
+    else
+      set_color -o green
+    end
+
     echo -n " $git_branch"
   end
 
