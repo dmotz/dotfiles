@@ -14,7 +14,6 @@
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "selection",
   "editor.rulers": [80],
   "editor.screenReaderAnnounceInlineSuggestion": false,
@@ -27,11 +26,11 @@
 
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-
-  "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "Dainty – Material Theme Ocean",
+  "workbench.colorTheme": "Tokyo Night",
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
+    "{hexdiff}:/**/*.*": "hexEditor.hexedit",
+    "*.ipynb": "jupyter-notebook",
+    "*.svg": "default"
   },
   "workbench.enableExperiments": false,
   "workbench.iconTheme": null,
@@ -68,7 +67,21 @@
   },
   "github.copilot.editor.enableAutoCompletions": true,
 
-  "eslint.validate": ["javascript", "svelte"],
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "svelte"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "svelte"
+  ],
+  "eslint.experimental.useFlatConfig": true,
 
   "prettier.resolveGlobalModules": true,
 
