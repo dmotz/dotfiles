@@ -115,6 +115,10 @@
 
   "typescript.tsserver.log": "off",
   "typescript.suggest.autoImports": false,
+  "typescript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
 
   "[clojure]": {
     "editor.defaultFormatter": "betterthantomorrow.calva"
