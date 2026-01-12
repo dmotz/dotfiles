@@ -1,3 +1,4 @@
 theme = TokyoNight Moon
 font-size = 15
 adjust-cursor-thickness = 2
+macos-titlebar-style = tabs
