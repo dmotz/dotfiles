@@ -1,3 +1,3 @@
 function awakefor
-  gtimeout (math "$argv[1] * 60 * 60") caffeinate -d
+  caffeinate -d -t (math "$argv[1] * 3600")
 end
