@@ -1,0 +1,6 @@
+min-release-age=3
+init-author-name=Dan Motzenbecker
+init-author-email=dan@oxism.com
+init-author-url=https://oxism.com
+init-license=MIT
+init-version=0.0.0
