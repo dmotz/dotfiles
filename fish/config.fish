@@ -12,12 +12,13 @@ set -x PATH $PATH \
   ~/.local/bin \
   ~/.poetry/bin \
   ~/.cargo/bin \
+  ~/Library/pnpm/bin \
   /Applications/Code.app/Contents/Resources/app/bin
 
 set fish_greeting ''
 set HISTSIZE      100000
 
-set -x CONFIG_PATH ~/__/dotfiles
+set -x CONFIG_PATH ~/_/dotfiles
 
 set -x EDITOR code
 
