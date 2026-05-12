@@ -33,6 +33,13 @@ lnk $CONFIG_PATH/lsd/config.yaml ~/.config/lsd/config.yaml
 mkdir -p ~/.config/ghostty
 lnk $CONFIG_PATH/ghostty/config ~/.config/ghostty/config
 
+lnk $CONFIG_PATH/js/npmrc ~/.npmrc
+lnk $CONFIG_PATH/js/bunfig.toml ~/.bunfig.toml
+lnk $CONFIG_PATH/js/yarnrc.yml ~/.yarnrc.yml
+
+mkdir -p ~/Library/Preferences/pnpm
+lnk $CONFIG_PATH/pnpm/rc ~/Library/Preferences/pnpm/config.yaml
+
 if test (uname) = Darwin
   xcode-select --install
   sudo $CONFIG_PATH/macos/macos.sh
@@ -44,11 +51,6 @@ if test (uname) = Darwin
 end
 
 npm i -g (cat $CONFIG_PATH/js/npmfile)
-npm config set init-author-name 'Dan Motzenbecker'
-npm config set init-author-email 'dan@oxism.com'
-npm config set init-author-url 'https://oxism.com'
-npm config set init-license 'MIT'
-npm config set init-version 0.0.0
 
 # disable shell login message
 touch ~/.hushlogin
